@@ -11,7 +11,7 @@ import {
 import { router } from "expo-router";
 import { collection, getDocs } from "firebase/firestore";
 import { db } from "../firebase";
-import PageHeader from "../components/PageHeader";
+import PageHeader from "../Components/PageHeader";
 
 type Book = {
   id: string;
